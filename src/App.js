@@ -1,5 +1,23 @@
+// import React, { Component } from 'react';
+// import RestaurantsContainer from './containers/RestaurantsContainer';
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <div className="App">
+//         <RestaurantsContainer />
+//       </div>
+//     );
+//   }
+// };
+
+// export default App;
+
+
+
 import React, { Component } from 'react';
-import RestaurantsContainer from './containers/RestaurantsContainer';
+
+import RestaurantsContainer from './containers/RestaurantsContainer'
 
 class App extends Component {
   render() {
@@ -9,6 +27,6 @@ class App extends Component {
       </div>
     );
   }
-};
+}
 
 export default App;
